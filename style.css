@@ -1,0 +1,110 @@
+body {
+    background-color:#FFEBCD;
+}
+h1 {
+    color:#A0522D;
+    font-family:tahoma;
+    font-size:32px;
+}
+h2 {
+    color:#A0522D;
+    font-family:tahoma;
+    font-size:25px;
+    text-align:center;
+}
+
+h3 {
+    color:#A0522D;
+    font-family:tahoma;
+    font-size:19px;
+    text-align:center;
+}
+p {
+    color:#A0522D;
+    font-family:tahoma;
+    font-size:16px;
+    padding:5px;
+}
+a {
+    color: salmon;
+}
+label {
+    color:#A0522D;
+    font-family:tahoma;
+    font-size:18px;
+    text-align:center;   
+}
+.header {
+background-color:#FFBA7A;
+text-align: center;
+padding: 20px;
+}
+.topnav {
+overflow: hidden;
+background-color: #A0522D;
+}
+.topnav a {
+float: left;
+display: block;
+color: #FFBA7A;
+font-family:tahoma;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: #FFBA7A;
+font-family:tahoma;
+color: blanchedalmond;
+}
+.column.side {
+    display: block;
+    float: left;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.column.center {
+    display: block;
+    float: left;
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+@media screen and (max-width: 720px) {
+    .column.side {
+      width: 100%;
+    }
+}   
+
+@media screen and (max-width: 720px) {
+    .column.center {
+      width: 100%;
+    }
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.gallery {
+    margin-top: 10px;
+    margin-right:auto;
+    float:center;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+    color:chocolate;
+    font-family:tahoma;
+    font-size:16px;
+}
+.footer {
+    background-color: #ffb570;
+    text-align: center;
+    padding: 10px;
+}
